@@ -17,16 +17,25 @@ header h1 {
 section {
     background-color: #ffffff;
     padding: 20px;
-    width: 350px;
+    width: 80%;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between; /* Espaça os itens horizontalmente */
+    align-items: flex-start; /* Alinha os itens pelo topo */
 }
 
-img {
-    width: 100%;
+section img {
+    width: 30%;
     border: 2px solid #ddd;
     border-radius: 8px;
-    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
 }
 
 .ingredientes {
